@@ -107,7 +107,7 @@ def edit(model, null_token, model_wrap, model_wrap_cfg, args):
 
 class Args(object):
     def __init__(self, resolution=512, steps=50, config="configs/generate.yaml", 
-                 ckpt="checkpoints/instruct-pix2pix-00-22000.ckpt", 
+                 ckpt="checkpoints/MagicBrush-epoch-52-step-4999.ckpt", 
                  vae_ckpt=None, input=True, output=True, edit=True, 
                  cfg_text=7.5, cfg_image=1.5, seed=None):
         self.resolution = resolution
